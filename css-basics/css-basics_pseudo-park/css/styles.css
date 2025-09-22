@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.park {
+  margin: 16px;
+  border: 2px dashed silver;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: lightgoldenrodyellow;
+}
+
+.animal {
+  padding: 16px;
+  font-size: 32px;
+}
+
+h1:hover{ 
+  background-color: lightblue;
+}
+
+h2:hover{
+  text-align: center;
+background-color: lightgreen
+  
+}
+
+h3:hover{
+  text-align: right;
+  background-color: lightgreen;
+}
+  
+
+
+
+/*
+  💡 Select the animals by their class names and use the text-align property.
+*/
+
+/* 
+  The animals want some color! 🎨
+  When the mouse hovers over an animal, change the background color.
+   - The crocodile wants to be lightblue.
+   - The giraffe likes lightgreen.
+   - The dino is a huge fan of lightsalmon.
+
+  💡 You'll need to use a pseudo-class selector for each animal.
+*/
