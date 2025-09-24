@@ -52,7 +52,17 @@ li {
   margin: 0;
 }
 
+.bio {
+  font-size: 12px;
+  color: darkslategray;
+  margin: 6px;
+}
 
+.location {
+  font-size: 10px;
+  font-weight: 600;
+  text-align: end;
+  margin: 0;
 }
 
 /*
