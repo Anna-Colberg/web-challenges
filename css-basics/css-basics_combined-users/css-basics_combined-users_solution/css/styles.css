@@ -88,7 +88,7 @@ aside .bio {
 
 aside .location {
   font-size: 10px;
-  }
+}
 
 ul .user .bio {
   display: none;
@@ -98,10 +98,9 @@ ul .user .location {
   margin: 0;
   color: darkslategray;
 }
-
 /*
   Part 1
-
+.
   Make .user elements inside the aside smaller:
     - reduce the max-width to 250px
     - reduce the padding to 12px
@@ -114,9 +113,8 @@ ul .user .location {
 
   Make sure to not change the styles of the .user element anywhere else.
   
-  To facilitate layout debugging, apply the 'debug' class to the <html> element. 
-  This triggers visual helper styles from 'debug.css' that outline structural elements
-  like <body>, <main>, <aside>, <ul>, and .user with labeled overlays for easy identification.
+  For guidance you can include some debug styles.
+  To do so, add a "debug" class to the html element.
 */
 
 /*
