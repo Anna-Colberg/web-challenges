@@ -10,10 +10,10 @@ console.clear();
 */
 
 // --v-- write your code here --v--
-const title = "My first website";
-const text = "I have a bootcamp compledet";
-let numberOfLikes = 30;
-const author = "Anna Colberg";
+const title = "My favorite day of the year";
+const text = "This was the highlight of my last vacation";
+let numberOfLikes = 69;
+const author = "Merle Mak";
 const isReported = true;
 // --^-- write your code here --^--
 
@@ -31,4 +31,5 @@ console.log(isReported);
 numberOfLikes += 1;
 
 console.log(numberOfLikes);
+
 // --^-- write your code here --^--
