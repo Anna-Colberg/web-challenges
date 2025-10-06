@@ -20,7 +20,7 @@ const personAlex = {
 };
 
 const nameOfAlex = "Alex";
-const ageOfAlex = "24";
+const ageOfAlex = 24;
 
 console.log(ageOfAlex)
 
