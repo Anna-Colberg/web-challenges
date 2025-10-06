@@ -25,17 +25,28 @@ if (number % 2 === 0) {
 
 
 // Part 3: Hotdogs
-const numberOfHotdogs = 42;
+const numberOfHotdogs = 8;
 
+if (numberOfHotdogs < 5) {
+  console.log(2 * numberOfHotdogs)
+} else if (numberOfHotdogs < 100) {
+  console.log(1.50 * numberOfHotdogs)
+} else if (numberOfHotdogs < 1000000) {
+  console.log (1 * numberOfHotdogs)
+} else if (numberOfHotdogs > 1000000) {
+  console.log (0.10 * numberOfHotdogs)
+}
 
 
 
 // Part 4: Daytime
-const currentHour = 12;
+const currentHour = 17;
 
 const statement = "";
 
 console.log(statement);
+
+if ()
 
 // Part 5: Greeting
 const userName = "Archibald";
