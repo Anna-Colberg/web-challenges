@@ -50,32 +50,28 @@ const people = [
 // EXERCISE 1
 // Set the variable `nameOfFirstPerson` to the name of the first person in the array.
 
-const nameOfFirstPerson = "Homer";
-console.log(people[0].name);
+const nameOfFirstPerson = people[0].name;
 
 // EXERCISE 2
 // Set the variable `homersOtherFriends` to the other friends of Homer.
 
-const homersOtherFriends = "other friends";
-console.log(people[0]["other friends"]);
+const homersOtherFriends = people[0]["other friends"];
 
 // EXERCISE 3
 // Set the variable `ageOfThirdPerson` to the age of the third person.
 
-const ageOfThirdPerson = "10";
-console.log(people[2].age);
+const ageOfThirdPerson = people[2].age;
 
 // EXERCISE 4
 // Set the variable `mothersNameOfSecondPerson` to the mother's name of the second person.
 
-const mothersNameOfSecondPerson = "Mona";
-console.log(people[0].parents.mothersName);
+const mothersNameOfSecondPerson = people[0].parents.mothersName;
 
 // EXERCISE 5
 // Set the variable `animalTypeOfLisasPet` to the type of animal that Lisa has as a pet.
 
-const animalTypeOfLisasPet = "change me";
-console.log(people[3].pet.animal)
+const animalTypeOfLisasPet = people[3].pet.animal;
+
 
 
 export {
