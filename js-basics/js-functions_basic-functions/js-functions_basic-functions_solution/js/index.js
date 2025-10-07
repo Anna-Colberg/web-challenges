@@ -10,14 +10,10 @@ console.clear();
 
 // --v-- write your code here --v--
 
-
-  const title = "Worms";
-  const author = "Jamie";
-  const rating = 5.6;
-  const numbersOfCopy = 5;
-
-
-
+const title = "Learning Javascript for Smarties";
+const author = "Merle Mak";
+let rating = 5;
+let numberOfSales = 23345;
 
 // --^-- write your code here --^--
 
@@ -31,25 +27,28 @@ Sales: 120
 
 Then:
 - Increase the number of sales.
-- Update the book's rating. 
+- Update the book's rating.
 - Log all variables to the console again after making these updates.
 */
 
 // --v-- write your code here --v--
 
+// console.log(`Title: ${title}`);
+// console.log("Author: " + author);
+// console.log("Rating: " + rating);
+// console.log("Number of Sales: " + numberOfSales);
 
+logBookData();
 
-function printbookData(title, author, rating, sales){
-// const title = "The Lord of the Javascript";
-// const author = "Mario";
-// const rating = 4.2;
-// const sales = 120;
-console.log(title + " from " + author + " is " + rating + " with " + sales + " EUR ")
-}
+numberOfSales = numberOfSales + 1000;
+rating = 7;
 
+// console.log(`Title: ${title}`);
+// console.log("Author: " + author);
+// console.log("Rating: " + rating);
+// console.log("Number of Sales: " + numberOfSales);
 
-printbookData("The Lord of the Javascript", "Mario", 4.2, 120);
-printbookData("The Lord of the Javascript", "Mario", 5.0, 240);
+logBookData();
 
 // --^-- write your code here --^--
 
@@ -63,8 +62,6 @@ printbookData("The Lord of the Javascript", "Mario", 5.0, 240);
 */
 
 // --v-- write your code here --v--
-
-
 function logBookData() {
   console.log(title + ", " + author + ", " + rating + ", " + numberOfSales);
   // console.log(`${title} ${author} ${rating} ${numberOfSales})
