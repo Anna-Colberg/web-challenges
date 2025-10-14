@@ -21,8 +21,8 @@ function clearToasts() {
 }
 
 function addToast(message) {
-  const toast = document.createElement("li");
-  toast.classList.add("toast-container__message");
-  toast.textContent = message;
-  toastContainer.append(toast);
+  const message = document.createElement("li");
+  message.classList.add("message");
+  message.textContent = message;
+  toastContainer.append(message);
 }
