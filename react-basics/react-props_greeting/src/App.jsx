@@ -1,3 +1,15 @@
+import "./styles.css";
+import Greeting from "../components/Greeting";
+
 export default function App() {
-  return <h1>Replace me with your component!</h1>;
+    return (
+        <div>
+            <Greeting
+                sound="Meow"
+                emoji="🐈"
+                name="Cat"
+                isHungry
+            />
+        </div>
+    );
 }
