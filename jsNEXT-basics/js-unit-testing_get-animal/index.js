@@ -1,6 +1,9 @@
-export function getAnimal(animal, animalPluralName) {
-    return "I" ${`totally love ${animal}!` ? `like ${animalPluralName}!` : `do not like animals at all!`}!
+export function getAnimal(animal) {
+    if (animal === undefined) {
+    return "do not like animals at all!"; 
+    } else if (animal === "cats") {
+        return "I totally love cats!";
+    } else {
+        return `I like ${animal}!`;
+    }
 }
-
-/* `I totally love ${animal}!` + getAnimals(animal)*/
-/* `I do not like animals at all!` + getAnimals()*/
