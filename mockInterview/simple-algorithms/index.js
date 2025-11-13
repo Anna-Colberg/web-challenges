@@ -51,7 +51,10 @@ const numbers = [6, 12, 1, 18, 13, 16, 2, 1, 8, 10];
 
 function sumNumbers(numbers) {
   // TODO:  
+  return numbers.reduce((sum, num) => sum + num, 0);
 }
+
+console.log(sumNumbers(numbers));
 
 
 //_______________________________
@@ -74,7 +77,14 @@ const words2 = [
 
 function averageWordLength(words) {
   // TODO:
+  if (words.length === 0)
+    return 0;
+
+  const totalLength = words.reduce ((sum, word) => sum + word.length, 0);
+  return totalLenght / words.length;
 }
+console.log(averageWordLenght(words2));
+
 
 
 //_______________________________
@@ -98,7 +108,10 @@ const words3 = [
 
 function uniquifyArray(words) {
   // TODO:
+  if (words.length === 0) 
+    return [];
 }
+console.log(uniquifyArray(words3));
 
 
 //_________________________________
@@ -109,8 +122,10 @@ const wordsFind = ['machine', 'subset', 'trouble', 'starting', 'matter', 'eating
 
 function doesWordExist(haystack, needle) {
   // TODO:
+  if (haystack.length === 0)
+    return haystack.includes(needle);
 }
-
+console.log(doesWOrdExist(wordsFind, "trouble"))
 
 //_________________________________
 
@@ -133,6 +148,17 @@ const wordsCount = [
 
 function howManyTimes(haystack, needle) {
   // TODO:
+  if(haystack.length === 0)
+    return 0;
+
+  let count = 0;
+
+
+  for (let i=0; i<haystack.length; i++) {
+    if (haystack[i] === needle) {
+      count++;
+    }
+  }
 }
 
 
